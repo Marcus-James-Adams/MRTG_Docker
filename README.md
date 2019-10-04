@@ -1,5 +1,6 @@
 [![Maintained by Marcus James Adams](https://img.shields.io/badge/Maintained%20by-Marcus%20James%20Adams-informational)](https://mja.org.uk/?ref=github)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg)
+![Docker Status](https://img.shields.io/docker/build/samwisethecat/centos_7_java)
 
 # MRTG in Docker
 
