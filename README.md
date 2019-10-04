@@ -6,7 +6,7 @@
 ## Work in Process
 
 ### Plan 
-* MRTG monitoring in docker
+#### MRTG monitoring in docker
 * Have MRTG display monitor and display webpages securely via NGINX
 * Store both nginx & mrtg config in seperate volume (Persistant????)
 * Store mrtg results in seperate volume (Persistant)
