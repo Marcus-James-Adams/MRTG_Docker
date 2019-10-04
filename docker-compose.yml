@@ -1,0 +1,10 @@
+web:
+  image: nginx
+  volumes:
+   - ./mrtg.template:/etc/nginx/conf.d/mrtg.template
+  ports:
+   - "8080:80"
+  environment:
+   - NGINX_HOST=mja.org.uk
+   - NGINX_PORT=80
+  command: /bin/bash -c "envsubst < /etc/nginx/conf.d/mrtg.template > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"
